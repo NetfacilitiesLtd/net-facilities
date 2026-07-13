@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Image from "next/image";
 import {
   FaMapMarkerAlt,
@@ -32,36 +33,30 @@ export default function Footer() {
           </h4>
 
           <ul className="space-y-2 text-gray-400">
-            <li>
-              <a href="#home" className="transition hover:text-green-500">
-                Home
-              </a>
-            </li>
+  <li>
+    <Link href="/" className="transition hover:text-green-500">
+      Home
+    </Link>
+  </li>
 
-            <li>
-              <a href="#services" className="transition hover:text-green-500">
-                Services
-              </a>
-            </li>
+  <li>
+    <Link href="/about" className="transition hover:text-green-500">
+      About
+    </Link>
+  </li>
 
-            <li>
-              <a href="#about" className="transition hover:text-green-500">
-                About
-              </a>
-            </li>
+  <li>
+    <Link href="/services" className="transition hover:text-green-500">
+      Services
+    </Link>
+  </li>
 
-            <li>
-              <a href="#gallery" className="transition hover:text-green-500">
-                Gallery
-              </a>
-            </li>
-
-            <li>
-              <a href="#contact" className="transition hover:text-green-500">
-                Contact
-              </a>
-            </li>
-          </ul>
+  <li>
+    <Link href="/contact" className="transition hover:text-green-500">
+      Contact
+    </Link>
+  </li>
+</ul>
         </div>
 
         {/* Our Services */}
@@ -71,11 +66,12 @@ export default function Footer() {
           </h4>
 
           <ul className="space-y-2 text-gray-400">
-            <li>Cleaning Services</li>
-            <li>Facilities Management</li>
-            <li>Property Maintenance</li>
-            <li>Property Consultancy</li>
-          </ul>
+  <li>Integrated Facilities Management</li>
+  <li>Cleaning Services</li>
+  <li>Property Management</li>
+  <li>Security Services</li>
+  <li>Property Consultancy</li>
+</ul>
         </div>
 
         {/* Contact */}
@@ -133,7 +129,7 @@ export default function Footer() {
       </div>
 
       <div className="mt-10 border-t border-slate-700 pt-6 text-center text-gray-500">
-        © 2026 NET Facilities & Properties Management Ltd. All rights reserved.
+        © {new Date().getFullYear()} NET Facilities & Properties Management Ltd. All rights reserved.
       </div>
     </footer>
   );
