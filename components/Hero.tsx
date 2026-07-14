@@ -6,7 +6,7 @@ export default function Hero() {
   className="relative min-h-screen overflow-hidden pt-40 pb-24 text-white flex items-center"
   style={{
   backgroundImage:
-    "linear-gradient(rgba(15,23,42,0.65), rgba(15,23,42,0.65)), url('/hero.png')",
+  "linear-gradient(rgba(15,23,42,0.75), rgba(15,23,42,0.75)), url('/hero.png')",
   backgroundSize: "cover",
   backgroundPosition: "center center",
   backgroundRepeat: "no-repeat",
@@ -49,10 +49,27 @@ export default function Hero() {
   rel="noopener noreferrer"
   className="rounded-lg border border-white px-8 py-4 transition duration-300 hover:-translate-y-1 hover:bg-white hover:text-slate-900 hover:shadow-xl"
 >
-  Book Service
+  WhatsApp Us
 </a>
         </div>
+<div className="mt-10 flex flex-wrap gap-8 text-sm text-gray-200">
 
+  <div className="flex items-center gap-2">
+    <span className="text-green-400">✔</span>
+    Professional Team
+  </div>
+
+  <div className="flex items-center gap-2">
+    <span className="text-green-400">✔</span>
+    Reliable Service
+  </div>
+
+  <div className="flex items-center gap-2">
+    <span className="text-green-400">✔</span>
+    Client Focused
+  </div>
+
+</div>
       </div>
     </section>
   );
