@@ -9,7 +9,10 @@ export default function Navbar() {
     <header className="fixed top-0 left-0 right-0 z-50 border-b border-white/10 bg-slate-900/70 text-white backdrop-blur-xl transition-all duration-300">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
 
-        <div className="flex items-center gap-4">
+        <Link
+  href="/"
+  className="flex items-center gap-4 transition-opacity hover:opacity-90"
+>
   <Image
     src="/logo.png"
     alt="NET Facilities Logo"
@@ -27,7 +30,7 @@ export default function Navbar() {
       Properties Management Ltd
     </p>
   </div>
-</div>
+</Link>
 
         <nav className="hidden items-center gap-8 md:flex">
           <Link
