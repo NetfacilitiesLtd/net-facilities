@@ -42,7 +42,7 @@ export const metadata = {
     description:
       "Professional Facilities Management, Cleaning and Property Maintenance Services across Ghana.",
 
-    url: "https://netfacilities.com",
+    url: "https://netfacilitiesmanagement.com",
 
     siteName: "NET Facilities",
 
