@@ -6,7 +6,7 @@ import Process from "@/components/Process";
 import Hero from "@/components/Hero";
 import Services from "@/components/Services";
 import WhyChooseUs from "@/components/WhyChooseUs";
-import Contact from "@/components/Contact";
+import HomeCTA from "@/components/HomeCTA";
 
 export default function Home() {
   return (
@@ -16,8 +16,8 @@ export default function Home() {
   <Services />
   <WhyChooseUs />
   <Gallery />
-  <Process />
-  <Contact />
+<Process />
+<HomeCTA />
   <BackToTop />
 </main>
   );
