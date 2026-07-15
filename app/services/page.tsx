@@ -1,6 +1,7 @@
 import ServicesCTA from "../../components/services/ServicesCTA";
 import SectorsServed from "../../components/services/SectorsServed";
 import PropertyManagement from "../../components/services/PropertyManagement";
+import ComplianceSection from "../../components/services/ComplianceSection";
 import SoftServices from "../../components/services/SoftServices";
 import SecurityServices from "../../components/services/SecurityServices";
 import HardServices from "../../components/services/HardServices";
@@ -32,7 +33,12 @@ export default function ServicesPage() {
     {/* Property & Asset Management */}
 
 <PropertyManagement />
-    {/* Sectors We Serve */}
+
+{/* Compliance & Health & Safety */}
+
+<ComplianceSection />
+
+{/* Sectors We Serve */}
 
 <SectorsServed />
     {/* Call To Action */}
