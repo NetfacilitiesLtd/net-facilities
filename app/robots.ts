@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
     },
 
-    sitemap: "https://www.netfacilities.com/sitemap.xml",
+    sitemap: "https://www.netfacilitiesmanagement.com/sitemap.xml",
   };
 }
