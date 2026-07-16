@@ -17,24 +17,28 @@ export default function Hero() {
         <div className="mb-6 inline-flex items-center rounded-full border border-green-500/30 bg-green-500/10 px-5 py-2">
   <span className="mr-2 text-green-400">✓</span>
   <span className="text-sm font-semibold uppercase tracking-wider text-green-300">
-    Trusted Facilities Management Company in Ghana
-  </span>
+  Serving Ghana • Supporting Clients Across the UK & Europe
+</span>
 </div>
 
-        <h2 className="max-w-4xl text-5xl font-extrabold leading-tight md:text-6xl">
-          Facilities &
-          <br />
-          Property Management
-          <br />
-          Solutions
-        </h2>
-
-        <p className="mt-8 max-w-2xl text-lg leading-8 text-gray-200 md:text-xl">
-          Net Facilities and Properties Management Ltd provides
-          professional facilities management, cleaning services,
-          consultancy, asset management, and property maintenance
-          solutions across Ghana.
-        </p>
+        <h2 className="max-w-5xl text-5xl font-extrabold leading-tight md:text-6xl">
+  Integrated Facilities &
+  <br />
+  Property Management
+  <br />
+  Across Ghana
+</h2>
+<p className="mt-4 text-xl font-semibold text-green-300 md:text-2xl">
+  Supporting Businesses & Property Owners in the UK and Europe
+</p>
+        <p className="mt-8 max-w-3xl text-lg leading-8 text-gray-200 md:text-xl">
+  NET Facilities & Properties Management Ltd delivers integrated
+  facilities management, property maintenance, cleaning services,
+  consultancy and asset management from our headquarters in Ghana,
+  while supporting businesses, property owners and project partners
+  across the United Kingdom and Europe through internationally
+  aligned service standards.
+</p>
 
         <div className="mt-10 flex gap-4">
           <a
