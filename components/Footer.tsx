@@ -83,13 +83,26 @@ export default function Footer() {
   <div className="space-y-4 text-gray-400">
 
     <div className="flex items-start gap-3">
-      <FaMapMarkerAlt className="mt-1 text-green-500" />
-      <span>
-        LB8 Calcite Close<br />
-        GA-208-1143<br />
-        Tesano, Accra
-      </span>
+  <FaMapMarkerAlt className="mt-1 text-green-500" />
+  <div>
+    <p className="font-semibold text-white">🇬🇭 Ghana Headquarters</p>
+    <p>
+      LB8 Calcite Close<br />
+      GA-208-1143<br />
+      Tesano, Accra
+    </p>
+
+    <div className="mt-4">
+      <p className="font-semibold text-white">🇬🇧 United Kingdom Headquarters</p>
+      <p>
+        165 Hornbeams<br />
+        Harlow, Essex<br />
+        CM20 1PJ<br />
+        United Kingdom
+      </p>
     </div>
+  </div>
+</div>
 
     <div className="flex flex-col gap-2">
   <div className="flex items-center gap-3">
