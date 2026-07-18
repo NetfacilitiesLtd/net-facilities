@@ -91,14 +91,27 @@ export default function Footer() {
       </span>
     </div>
 
-    <div className="flex items-center gap-3">
-      <FaPhoneAlt className="text-green-500" />
-      <a
-        href="tel:+233244029773"
-        className="hover:text-green-500"
-      >
-        +233 24 402 9773
-      </a>
+    <div className="flex flex-col gap-2">
+  <div className="flex items-center gap-3">
+    <FaPhoneAlt className="text-green-500" />
+    <a
+      href="tel:+233244029773"
+      className="hover:text-green-500"
+    >
+      🇬🇭 +233 24 402 9773
+    </a>
+  </div>
+
+  <div className="flex items-center gap-3">
+    <FaPhoneAlt className="text-green-500" />
+    <a
+      href="tel:+447846260046"
+      className="hover:text-green-500"
+    >
+      🇬🇧 +44 7846 260046
+    </a>
+  </div>
+
     </div>
 
     <div className="flex items-center gap-3">
