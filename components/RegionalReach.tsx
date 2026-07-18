@@ -9,9 +9,7 @@ export default function RegionalReach() {
           REGIONAL REACH
         </p>
 
-        <p className="mb-3 text-center text-sm font-semibold uppercase tracking-[0.3em] text-green-600">
-          REGIONAL REACH
-        </p>
+      
 
         <h2 className="text-center text-4xl font-bold text-slate-900">
           Headquartered in Ghana. Supporting Clients Internationally.
