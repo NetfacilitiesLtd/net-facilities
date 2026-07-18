@@ -9,10 +9,10 @@ import {
 export default function Footer() {
   return (
     <footer className="bg-slate-900 py-12 text-white">
-      <div className="mx-auto grid max-w-7xl gap-10 px-6 md:grid-cols-4">
+      <div className="mx-auto grid max-w-screen-2xl gap-10 px-6 md:grid-cols-12">
 
         {/* Company */}
-        <div>
+<div className="md:col-span-3">
           <Image
   src="/logo.png"
   alt="NET Facilities Logo"
@@ -27,7 +27,7 @@ export default function Footer() {
         </div>
 
         {/* Quick Links */}
-        <div>
+<div className="md:col-span-2">
           <h4 className="mb-4 text-xl font-semibold">
             Quick Links
           </h4>
@@ -60,7 +60,7 @@ export default function Footer() {
         </div>
 
         {/* Our Services */}
-        <div>
+<div className="md:col-span-3">
           <h4 className="mb-4 text-xl font-semibold">
             Our Services
           </h4>
@@ -75,33 +75,35 @@ export default function Footer() {
         </div>
 
         {/* Contact */}
-        <div>
+<div className="md:col-span-4">
   <h4 className="mb-4 text-xl font-semibold">
     Contact
   </h4>
 
-  <div className="space-y-4 text-gray-400">
+  <div className="space-y-3 text-gray-400">
 
     <div className="flex items-start gap-3">
-  <FaMapMarkerAlt className="mt-1 text-green-500" />
-  <div>
-    <p className="font-semibold text-white">🇬🇭 Ghana Headquarters</p>
-    <p>
-      LB8 Calcite Close<br />
-      GA-208-1143<br />
-      Tesano, Accra
-    </p>
+  <FaMapMarkerAlt className="mt-1 text-green-500 flex-shrink-0" />
 
-    <div className="mt-4">
-      <p className="font-semibold text-white">🇬🇧 United Kingdom Headquarters</p>
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full">
+    <div>
+      <p className="font-semibold text-white">Ghana Headquarters</p>
+      <p>
+        LB8 Calcite Close, GA-208-1143<br />
+        Tesano, Accra
+      </p>
+    </div>
+
+    <div>
+      <p className="font-semibold text-white">United Kingdom Headquarters</p>
       <p>
         165 Hornbeams<br />
-        Harlow, Essex<br />
-        CM20 1PJ<br />
-        United Kingdom
+        Harlow, Essex CM20 1PJ
       </p>
     </div>
   </div>
+
+
 </div>
 
     <div className="flex flex-col gap-2">
@@ -111,7 +113,7 @@ export default function Footer() {
       href="tel:+233244029773"
       className="hover:text-green-500"
     >
-      🇬🇭 +233 24 402 9773
+     Ghana: +233 24 402 9773
     </a>
   </div>
 
@@ -121,7 +123,7 @@ export default function Footer() {
       href="tel:+447846260046"
       className="hover:text-green-500"
     >
-      🇬🇧 +44 7846 260046
+      UK: +44 7846 260046
     </a>
   </div>
 
