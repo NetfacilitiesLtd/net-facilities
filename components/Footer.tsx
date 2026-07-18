@@ -132,7 +132,7 @@ export default function Footer() {
     <div className="flex items-center gap-3">
       <FaEnvelope className="text-green-500" />
       <a
-        href="mailto:info@netfacilitiesmanagement.com"
+        href="mailto:info@netfacilitiesmanagement.com?subject=Website%20Enquiry&body=Hello%20NET%20Facilities%20Team,%0A%0AI'm%20interested%20in%20your%20services.%20Please%20contact%20me.%0A%0AThank%20you."
         className="hover:text-green-500"
       >
         info@netfacilitiesmanagement.com
