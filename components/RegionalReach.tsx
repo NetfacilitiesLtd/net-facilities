@@ -6,20 +6,20 @@ export default function RegionalReach() {
       <div className="mx-auto max-w-7xl px-6">
 
         <p className="mb-3 text-center text-sm font-semibold uppercase tracking-[0.3em] text-green-600">
-          REGIONAL REACH
-        </p>
+  REGIONAL REACH
+</p>
 
-      
+<h2 className="text-center text-4xl font-bold text-slate-900">
+  Headquartered in Ghana & the United Kingdom. Delivering Excellence Internationally.
+</h2>
 
-        <h2 className="text-center text-4xl font-bold text-slate-900">
-          Headquartered in Ghana. Supporting Clients Internationally.
-        </h2>
-
-        <p className="mx-auto mt-6 max-w-3xl text-center text-lg leading-8 text-gray-600">
-          From our headquarters in Accra, Ghana, we deliver facilities and
-          property management services nationwide while supporting businesses,
-          property owners and project partners across the United Kingdom and Europe.
-        </p>
+<p className="mx-auto mt-6 max-w-3xl text-center text-lg leading-8 text-gray-600">
+  From our headquarters in Ghana and the United Kingdom, NET Facilities &
+  Properties Management Ltd delivers integrated facilities management,
+  property consultancy, cleaning, maintenance, and asset management
+  solutions to businesses, institutions, and property owners across
+  West Africa, Europe, and the United Kingdom.
+</p>
 
         <div className="mt-16 grid gap-8 md:grid-cols-3">
 
