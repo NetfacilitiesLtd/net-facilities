@@ -18,7 +18,7 @@ export default function Services() {
         <p className="mx-auto mb-14 max-w-3xl text-center text-lg leading-8 text-gray-600">
   We deliver integrated facilities management, property maintenance, and
   professional cleaning services that help businesses and property owners
-  operate safe, efficient, and well-maintained environments across Ghana.
+  operate safe, efficient, and well-maintained environments across West Africa, Europe, and the United Kingdom.
 </p>
 
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">

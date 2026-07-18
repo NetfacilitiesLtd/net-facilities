@@ -19,7 +19,7 @@ export default function AboutHero() {
         <p className="mx-auto mt-6 max-w-3xl text-lg leading-9 text-gray-200 md:text-xl">
           We provide integrated facilities management, property maintenance,
           cleaning, consultancy and support services that create safe,
-          efficient and sustainable environments across Ghana.
+          efficient and sustainable environments across West Africa, Europe, and the United Kingdom.
         </p>
 
       </div>

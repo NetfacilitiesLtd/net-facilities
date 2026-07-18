@@ -33,7 +33,7 @@ export default function Gallery() {
 
         <p className="mx-auto mb-16 max-w-3xl text-center text-lg text-gray-600">
           Explore some of the facilities management, cleaning and property
-          maintenance services we proudly deliver across Ghana.
+          maintenance services we proudly deliver across West Africa, Europe, and the United Kingdom.
         </p>
 
         <div className="grid gap-8 md:grid-cols-2">

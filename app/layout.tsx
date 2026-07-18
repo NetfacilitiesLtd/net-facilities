@@ -19,7 +19,7 @@ export const metadata = {
   title: "NET Facilities & Properties Management Ltd | Facilities Management in Ghana",
 
   description:
-    "NET Facilities & Properties Management Ltd provides professional facilities management, office cleaning, property maintenance, consultancy, asset management, and support services across Ghana.",
+    "NET Facilities & Properties Management Ltd provides professional facilities management, office cleaning, property maintenance, consultancy, asset management, and support services across West Africa, Europe, and the United Kingdom.",
 
   keywords: [
     "Facilities Management Ghana",
@@ -40,7 +40,7 @@ export const metadata = {
     title: "NET Facilities & Properties Management Ltd",
 
     description:
-      "Professional Facilities Management, Cleaning and Property Maintenance Services across Ghana.",
+      "Professional Facilities Management, Cleaning and Property Maintenance Services across West Africa, Europe, and the United Kingdom.",
 
     url: "https://netfacilitiesmanagement.com",
 

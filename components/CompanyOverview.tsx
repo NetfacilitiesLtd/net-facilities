@@ -16,7 +16,7 @@ export default function CompanyOverview() {
             NET Facilities & Properties Management Ltd is a professional
             facilities management company committed to delivering exceptional
             property management, maintenance, cleaning and consultancy
-            services across Ghana.
+            services across West Africa, Europe, and the United Kingdom.
           </p>
 
           <p className="mb-6 text-lg leading-8 text-gray-600">
@@ -42,7 +42,7 @@ export default function CompanyOverview() {
             alt="Professional cleaning services"
             width={700}
             height={700}
-            loading="eager"
+            loading="eager" 
             className="rounded-3xl shadow-2xl"
           />
 

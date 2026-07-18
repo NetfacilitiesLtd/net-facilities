@@ -67,15 +67,31 @@ const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
 
         <div>
           <h3 className="text-xl font-bold text-slate-900">
-            Office Address
-          </h3>
+  Headquarters
+</h3>
 
-          <p className="mt-2 text-gray-600">
-            LB8 Calcite Close<br />
-            GA-208-1143<br />
-            Tesano, Accra<br />
-            Near Golden Spoon Hotel
-          </p>
+<p className="mt-2 text-gray-600">
+  <strong>Ghana Office</strong>
+  <br />
+  LB8 Calcite Close
+  <br />
+  GA-208-1143
+  <br />
+  Tesano, Accra
+  <br />
+  Near Golden Spoon Hotel
+  <br />
+  <br />
+  <strong>United Kingdom Office</strong>
+  <br />
+  165 Hornbeams
+  <br />
+  Harlow, Essex
+  <br />
+  CM20 1PJ
+  <br />
+  United Kingdom
+</p>
         </div>
 
       </div>
@@ -88,12 +104,21 @@ const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
             Phone
           </h3>
 
-          <a
-            href="tel:+233244029773"
-            className="mt-2 block text-gray-600 transition hover:text-green-600"
-          >
-            +233 24 402 9773
-          </a>
+          <div className="mt-2 text-gray-600">
+  <a
+    href="tel:+233244029773"
+    className="block transition hover:text-green-600"
+  >
+    Ghana: +233 24 402 9773
+  </a>
+
+  <a
+    href="tel:+447846260046"
+    className="mt-2 block transition hover:text-green-600"
+  >
+    United Kingdom: +44 7846 260046
+  </a>
+</div>
         </div>
 
       </div>

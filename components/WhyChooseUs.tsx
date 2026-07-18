@@ -15,7 +15,7 @@ export default function WhyChooseUs() {
         <p className="mx-auto mb-16 max-w-4xl text-center text-lg leading-8 text-gray-600">
   NET Facilities & Properties Management Ltd is committed to delivering
   professional facilities management, cleaning, property maintenance and
-  consultancy services across Ghana. We combine industry expertise,
+  consultancy services across West Africa, Europe, and the United Kingdom. We combine industry expertise,
   innovative solutions and exceptional customer service to help businesses,
   institutions and homeowners maintain safe, clean and efficient
   environments.

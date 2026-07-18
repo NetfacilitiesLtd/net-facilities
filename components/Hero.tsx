@@ -17,7 +17,7 @@ export default function Hero() {
         <div className="mb-6 inline-flex items-center rounded-full border border-green-500/30 bg-green-500/10 px-5 py-2">
   <span className="mr-2 text-green-400">✓</span>
   <span className="text-sm font-semibold uppercase tracking-wider text-green-300">
-  Serving Ghana • Supporting Clients Across the UK & Europe
+  Serving West Africa • Supporting Clients Across Europe & the United Kingdom
 </span>
 </div>
 
@@ -26,18 +26,18 @@ export default function Hero() {
   <br />
   Property Management
   <br />
-  Across Ghana
+  across West Africa, Europe, and the United Kingdom
 </h2>
 <p className="mt-4 text-xl font-semibold text-green-300 md:text-2xl">
-  Supporting Businesses & Property Owners in the UK and Europe
+  Supporting Businesses & Property Owners across West Africa, Europe, and the United Kingdom
 </p>
         <p className="mt-8 max-w-3xl text-lg leading-8 text-gray-200 md:text-xl">
   NET Facilities & Properties Management Ltd delivers integrated
-  facilities management, property maintenance, cleaning services,
-  consultancy and asset management from our headquarters in Ghana,
-  while supporting businesses, property owners and project partners
-  across the United Kingdom and Europe through internationally
-  aligned service standards.
+facilities management, property maintenance, cleaning services,
+consultancy and asset management from our headquarters in Ghana
+and the United Kingdom, while supporting businesses, property
+owners and project partners across West Africa, Europe, and the
+United Kingdom through internationally aligned service standards.
 </p>
 
         <div className="mt-10 flex gap-4">
