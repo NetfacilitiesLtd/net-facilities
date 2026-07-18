@@ -107,10 +107,10 @@ const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
           </h3>
 
           <a
-            href="mailto:netfacilities26@gmail.com"
+            href="mailto:info@netfacilitiesmanagement.com"
             className="mt-2 block text-gray-600 transition hover:text-green-600"
           >
-            netfacilities26@gmail.com
+            info@netfacilitiesmanagement.com
           </a>
         </div>
 
@@ -121,7 +121,7 @@ const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
 
         <div>
           <h3 className="text-xl font-bold text-slate-900">
-            Working Hours
+            Business Hours
           </h3>
 
           <p className="mt-2 text-gray-600">
